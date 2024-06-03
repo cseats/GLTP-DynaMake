@@ -1,8 +1,4 @@
 
-import Oasys.PRIMER
-import dynaCon
-import os
-
 
 def saveModel(savePath,m): #Save model
     print(f'>Saving model to {savePath}')

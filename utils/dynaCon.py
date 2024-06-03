@@ -1,5 +1,4 @@
 import Oasys.PRIMER
-import Oasys.THIS
 import time
 import os
 from dotenv import load_dotenv
