@@ -2,6 +2,7 @@ grpcio==1.64.0
 numpy==1.26.4
 Oasys.gRPC==21.0.0
 Oasys.PRIMER==21.0.0
+Oasys.THIS==21.0.0
 pandas==2.2.2
 protobuf==5.27.0
 python-dateutil==2.9.0.post0
