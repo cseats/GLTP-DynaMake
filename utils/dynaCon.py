@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 def connect2Primer():
+    """Function to connect to a Primer session, try up to 10 times"""
+
     num_tries = 10
     for p in range(4000, 4000+num_tries):
         try:
@@ -52,9 +54,9 @@ def connect2Primer():
 #     # except:
 #     #     print(">Window already terminated")
         
-        
-        
 def saveModel(savePath, m):
+    """Function to save model"""
+    
     print(f'>Saving model to {savePath}')
     output = {
         "version": "R13.0",
